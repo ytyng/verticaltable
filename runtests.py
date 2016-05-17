@@ -35,14 +35,16 @@ class TestUnittest(unittest.TestCase):
             current_dir, 'test-fixture', 'test-text-3.txt'))
 
         parsed = verticaltable.load(fp)
-        print(parsed)
+        self.assertTrue(parsed)
+        # print(parsed)
 
     def test__text_4(self):
         fp = open(os.path.join(
             current_dir, 'test-fixture', 'test-text-4.txt'))
 
         parsed = verticaltable.load(fp)
-        print(parsed)
+        self.assertTrue(parsed)
+        # print(parsed)
 
 if __name__ == '__main__':
     unittest.main()
