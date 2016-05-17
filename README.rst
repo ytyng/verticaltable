@@ -77,10 +77,12 @@ parsed:
 usage
 -----
 
-import verticaltable
+::
 
-fp = open('sample.txt')
+  import verticaltable
 
-parsed_list = verticaltable.loads(fp.read())
+  fp = open('sample.txt')
 
-parsed_list2 = verticaltable.load(open('sample2.txt'))
+  parsed_list = verticaltable.loads(fp.read())
+
+  parsed_list2 = verticaltable.load(open('sample2.txt'))
