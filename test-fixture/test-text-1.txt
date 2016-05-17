@@ -1,0 +1,24 @@
+
+
+[Q] This is a question.
+[A] This is an answer.
+multi line text.
+# comment
+hello
+
+[Q] Question2
+[A] Answer 2!
+
+[Q]
+Question 3
+
+[A]
+Answer 3
+
+--------
+[description]
+description text
+
+----
+[help]
+This is help

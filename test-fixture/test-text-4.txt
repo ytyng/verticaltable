@@ -1,0 +1,15 @@
+[Key1]
+Value1
+[Key2]
+Value2
+----
+[Key3]
+Value3
+next line
+next line
+[Key4]
+
+Value4    4!
+
+[Key5]
+Value
