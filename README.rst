@@ -1,7 +1,7 @@
 verticaltable
 ~~~~~~~~~~~~~
 
-This is an structured text parser.
+structured text parser.
 
 
 format
